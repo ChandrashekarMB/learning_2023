@@ -4,7 +4,7 @@ void print_bits(int num) {
     int i;
     for (i = 31; i >= 0; i--) {
         int bit = (num >> i) & 1;
-        putchar('0' + bit);
+        printf("%d", bit);
     }
     printf("\n");
 }
@@ -18,3 +18,4 @@ int main() {
     return 0;
 }
 
+   
